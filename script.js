@@ -94,4 +94,3 @@ document.querySelectorAll(".celula").forEach((celula, indice) => {
 // Adiciona um evento de clique ao botão de reiniciar do jogo associando a função reiniciar_jogo()
 
 document.getElementById("botao-reiniciar").addEventListener("click", reiniciar_jogo);
-  
