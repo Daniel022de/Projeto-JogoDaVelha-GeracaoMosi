@@ -15,6 +15,5 @@ quem foi o vencedor e o perdedor.
  - **Status:** Finalizado
 
 # Contato 
-**Para dúvidas, sugestões ou feedbacks você pode entrar em contato comigo atráves do 
-[meu e-mail](ddololiveira@gmail.com) 
-[linkedin](https://www.linkedin.com/in/daniel-oliveira-503b0323b/)**
+**Para dúvidas, sugestões ou feedbacks você pode entrar em contato comigo atráves do  
+meu [linkedin](https://www.linkedin.com/in/daniel-oliveira-503b0323b/)** ou email ddololiveira@gmail.com
