@@ -14,12 +14,7 @@ jogadas, marcando suas jogadas em um tabuleiro 3x3. No final do jogo deverá est
 quem foi o vencedor e o perdedor.   
  - **Status:** Finalizado
 
-
-# Contato 
-**Para dúvidas, sugestões ou feedbacks você pode entrar em contato comigo atráves do  
-meu [linkedin](https://www.linkedin.com/in/daniel-oliveira-503b0323b/)** ou email ddololiveira@gmail.com
-
-# Como copiar o repositório
+ ### Como copiar o repositório
 
 1. Abra o terminal em seu computador.
 2. Navegue para o diretório onde deseja copiar o repositório.
@@ -28,5 +23,10 @@ meu [linkedin](https://www.linkedin.com/in/daniel-oliveira-503b0323b/)** ou emai
 ```bash
 git clone https://github.com/Daniel022de/Projeto-JogoDaVelha-GeracaoMosi.git 
 
+
+
+# Contato 
+**Para dúvidas, sugestões ou feedbacks você pode entrar em contato comigo atráves do  
+meu [linkedin](https://www.linkedin.com/in/daniel-oliveira-503b0323b/)** ou email ddololiveira@gmail.com
 
 
