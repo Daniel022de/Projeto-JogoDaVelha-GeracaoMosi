@@ -25,7 +25,8 @@ quem foi o vencedor e o perdedor.
 3. Copie o repositório usando o comando abaixo:
 
 ```bash
-git clone https://github.com/Daniel022de/Projeto-JogoDaVelha-GeracaoMosi.git
+git clone https://github.com/Daniel022de/Projeto-JogoDaVelha-GeracaoMosi.git ´´´
+
 
 # Contato 
 **Para dúvidas, sugestões ou feedbacks você pode entrar em contato comigo atráves do  
