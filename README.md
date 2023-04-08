@@ -1,6 +1,8 @@
 # Jogo da Velha com Inteligência Artificial (IA)
+
 ![SITE CRIADO](https://storage.googleapis.com/imagens_desafio/Captura%20de%20tela%20de%202023-04-07%2016-24-34.png)
 
+-> [Clique aqui para acessar o site](https://grand-macaron-fa6b2e.netlify.app/)
 
 **Projeto desenvolvido como solução de um desafio proposto pela empresa Mosaico em seu processo seletivo para o programa de estágio #GeraçãoMosi**
 
