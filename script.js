@@ -32,7 +32,7 @@ function jogada_ia() {
     let celula = celulas_jogo[i];
     if (celula.innerHTML === "") {
       setTimeout(() => {
-        celula.innerHTML = marca_jogador_atual; 
+      celula.innerHTML = marca_jogador_atual; 
       if (marca_jogador_atual === "X") {
               marca_jogador_atual = "O";
              } else {
