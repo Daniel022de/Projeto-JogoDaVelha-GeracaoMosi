@@ -1,11 +1,9 @@
 // Declaração das variáveis globais
 
-
 let marca_jogador_atual = "X"; // Variável para acompanhar a marca do jogador atual
 let celulas_jogo = document.getElementsByClassName("celula"); // HTMLCollection que contém todas as células do jogo, obtidas pelo uso da função document.getElementsByClassName()
 let jogo_acabado = false; //  Variável usada para rastrear o estado do jogo, indicando se o jogo acabou ou não 
 let botao_reiniciar = document.getElementById("botao-reiniciar") //Variável usada para implementar um evento de click
-
 
 // Função executada quando uma célula é clicada pelo jogador humano
 
@@ -23,7 +21,6 @@ function jogada_humana(indice) {
      }
     }
 }
-
 
 // Função que representa a jogada da IA (Inteligência Artificial)
 
@@ -45,7 +42,6 @@ function jogada_ia() {
   }
 }
 
-
 // Função executada quando o botão reiniciar jogo é clicado
 
 function reiniciar_jogo() {
@@ -55,7 +51,6 @@ function reiniciar_jogo() {
   marca_jogador_atual = "X";
   jogo_acabado = false;
 }
-
 
 // Função para verificar se há um vencedor após cada jogada
 
@@ -69,9 +64,9 @@ function verificar_vencedor() {
     let [a, b, c] = combinacao;
     if (celulas_jogo[a].innerHTML !== '' && celulas_jogo[a].innerHTML === celulas_jogo[b].innerHTML && celulas_jogo[a].innerHTML === celulas_jogo[c].innerHTML) {
       if (celulas_jogo[a].innerHTML === "O") {
-        alert("A IA venceu. Tente novamente!");
+        alert("A IA venceu. Você perdeu. Tente novamente!");
       } else {
-        alert("Parabéns. você venceu!");
+        alert("Parabéns. Você venceu da IA!");
       }
       jogo_acabado = true;
       return true;
@@ -85,8 +80,6 @@ function verificar_vencedor() {
   }
   return false;
 }
-
-
 
 // Adiciona um evento de clique a cada célula do tabuleiro
 // Associa a função jogada_humana() para ser executada quando uma célula é clicada, passando o índice da célula como argumento. 
