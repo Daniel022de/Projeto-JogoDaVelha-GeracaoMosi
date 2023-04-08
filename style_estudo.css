@@ -1,0 +1,35 @@
+/* Estilos para o corpo da página */
+body {
+    background-color: purple;  /* Cor de fundo */
+    color: aliceblue;  /* Cor do texto */
+    text-align: center; /* Alinhamento do texto */
+  }
+  
+  /* Estilos para o elemento com ID igual a "tabuleiro" */
+  #tabuleiro {
+    display: grid; /* Modo de exibição */
+    grid-template-columns: repeat(3, 1fr); /* Número e o tamanho das colunas da grade,nesse caso 3 colunas com uma fração de espaço */
+    gap: 1px; /* Espaçamento entre as células do tabuleiro */
+    width: 400px;  /* Largura do tabuleiro */
+    margin: auto; /* Margens esquerda e direita do tabuleiro */
+  }
+  
+  /* Estilos para a classe chamada "celula", aplicados em cada célula do tabuleiro */
+  .celula {
+    display: grid; /* Modo de exibição */
+    align-items: center; /* Alinhamento vertical do conteúdo das células */
+    font-size: 50px; /* Tamanho da fonte do texto */
+    cursor: crosshair; /* Cursor do mouse quando passar pela célula */
+    background-color:rgba(194, 33, 194, 0.884); /* Cor de fundo das células */
+    height: 120px; /* Define a altura das células */
+  }
+  
+  /* Estilo para o botão de reiniciar jogo */
+  #botao-reiniciar {
+    background-color: rgba(238, 238, 238, 0.555); /* Cor de fundo do botão */
+    font-size: 24px; /* Tamanho da fonte do texto */
+    margin: 30px; /* Margens dos elementos ao redor do botão */
+    cursor: pointer; /* Cursor do mouse quando passa pelo botão */
+    color: #fff; /* Cor do texto do botão */
+  }
+  
