@@ -36,7 +36,7 @@ function jogada_ia() {
               marca_jogador_atual = "X";
              }
              verificar_vencedor();
-            }, 500);
+            }, 200);
       break;
     }
   }
