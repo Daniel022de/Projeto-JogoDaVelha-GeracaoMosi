@@ -21,7 +21,7 @@ quem foi o vencedor e o perdedor.
 **Para dúvidas, sugestões ou feedbacks você pode entrar em contato comigo atráves do  
 [linkedin](https://www.linkedin.com/in/daniel-oliveira-503b0323b/)** ou email ddololiveira@gmail.com
 
-# Como copiar o repositório
+# Copie o repositório
 
 1. Abra o terminal em seu computador.
 2. Navegue para o diretório onde deseja copiar o repositório.
